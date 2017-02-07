@@ -88,6 +88,9 @@ memes = memes.json()
 for meme in memes['data']['memes']:
 	name = meme['name'].lower()
 	keymap[name.replace(" ", "")] = meme['id']
+
+keymap['megusta'] = 7249133
+
 # print memes.text
 
 answerer = telepot.helper.Answerer(bot)
