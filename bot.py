@@ -90,7 +90,7 @@ for meme in memes['data']['memes']:
 	keymap[name.replace(" ", "")] = meme['id']
 
 keymap['megusta'] = 7249133
-
+keymap['pun'] = 12403754
 # print memes.text
 
 answerer = telepot.helper.Answerer(bot)
